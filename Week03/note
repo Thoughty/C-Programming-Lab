@@ -1,0 +1,28 @@
+if (x >= 1000){
+        for(int i =1000; i<=x; i=i+1000){
+            y=y+1000;
+            a++;
+            z=x-y;
+        }
+        printf(" %d notes of 1000 bath \n",a);}
+        else if (z >= 500  && z<1000 || x <=500){
+                for(int h = 500; h <=z; h = h+500)
+                 {
+                     l=l+500;
+                     k++;
+                     t = z-l;
+                 }
+                 
+            printf(" %d notes of 500 bath \n",l);
+            }
+            if (t != 0 && z != 0 && t<500){
+                    for(int i = 100;i<=t; i=i+100)
+                    {
+                        r=r+100;
+                        w++;
+                        j=t-r;
+                    }
+                    printf(" %d notes of 100 bath \n",w);
+                }
+    
+    
